@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Asafeer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: black;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  color: gold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1600180758890-6b94519a8ba6') center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: gold;
+  font-family: 'Playfair Display', serif;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.product {
+  background: #111;
+  padding: 10px;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Al Asafeer</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#abaya">Abayas</a>
+    <a href="#bags">Bags</a>
+    <a href="#shawls">Shawls</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Elegance in Every Detail</h1>
+    <p>Luxury Abayas • Bags • Shawls</p>
+    <a href="https://www.instagram.com/al_asafeer/" class="btn">View Collection</a>
+  </div>
+</section>
+
+<section class="section" id="abaya">
+  <h2>Abaya Collection</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1593032465171-8d36c80b0c3c">
+      <p>Classic Black Abaya</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf">
+      <p>Embroidered Abaya</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="bags">
+  <h2>Bags Collection</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3">
+      <p>Luxury Handbag</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7">
+      <p>Classic Tote</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="shawls">
+  <h2>Shawls Collection</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2">
+      <p>Soft Shawl</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1581338834647-b0fb40704e21">
+      <p>Premium Wrap</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Contact Us</h2>
+  <a href="https://www.instagram.com/al_asafeer/" class="btn">Instagram</a>
+</section>
+
+<footer>
+  © 2026 Al Asafeer. All rights reserved.
+</footer>
+
+</body>
+</html>
